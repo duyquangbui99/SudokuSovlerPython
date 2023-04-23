@@ -227,7 +227,21 @@ def solver():
                 b.delete(first=0,last=100)
         display_val()
         return
-
+    
+def pressed_hint():
+    global grid
+    for y in range(9):
+        for x in range(9):
+            if grid[y][x] == 0:
+                for num in range(1, 10):
+                    if stay(num, x, y):
+                        grid[y][x] = num
+                        for a in entry_list:
+                            for b in a:
+                                b.delete(first=0,last=100)
+                        display_val()
+                        return
+    
 def show_possible_numbers(event):
     global grid
     widget = event.widget
