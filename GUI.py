@@ -398,7 +398,7 @@ solve = Button(but, text="Solve", fg="#282828", command = pressed_solve ,font="G
 solve.configure(bg='#FCD4D4', width=8)
 solve.pack(pady=20)
 
-hint = Button(but, text="Help", fg="#282828", font="Geneva 30 bold", highlightbackground="#FFFF00", justify=CENTER)
+hint = Button(but, text="Help", fg="#282828", command = pressed_hint, ont="Geneva 30 bold", highlightbackground="#FFFF00", justify=CENTER)
 hint.configure(bg='#FCD4D4', width=8)
 hint.pack(pady=20)
 
