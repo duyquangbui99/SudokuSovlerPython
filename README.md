@@ -37,7 +37,7 @@ To start a new game, click on the "New Game" button. This will generate a new ra
 
 ## Credits
 
-This program was created by Quang bui Feel free to use and modify it as you like. If you have any questions or suggestions, please contact me at [Your Email]. 
+This program was created by Quang bui Feel free to use and modify it as you like. If you have any questions or suggestions, please contact me at qbuiforwork@gmail.com
 
 ## License
 
