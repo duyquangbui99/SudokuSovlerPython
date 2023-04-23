@@ -2,7 +2,12 @@
 # Sudoku Game Solver with Python and Tkinter
 
 This is a Python program that allows you to play and solve Sudoku puzzles. It uses the Tkinter library to create a graphical user interface (GUI) for the game.
+
+
+
 ![video1617479179](https://user-images.githubusercontent.com/77463586/233817258-8c9f20de-a376-4876-bcee-6fce2b6b8a58.gif)
+
+
 
 
 ## How to Run the Program
